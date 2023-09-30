@@ -1,3 +1,4 @@
+import CalenderWrapper from "../../components/CalendarWrapper";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 
@@ -14,7 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body
+        className={`container mx-auto my-5 border border-gray-50 rounded-md px-5 py-5 ${poppins.className}`}
+      >
+        <CalenderWrapper>{children}</CalenderWrapper>
+      </body>
     </html>
   );
 }
