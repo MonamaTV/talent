@@ -19,7 +19,7 @@ const Booking = () => {
               <div className="mx-5 pr-14">
                 <h2 className=" font-bold text-2xl">Stogie T</h2>
                 <small>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Just made some changes
                 </small>
               </div>
             </div>
